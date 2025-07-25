@@ -41,6 +41,16 @@ Catatan dapat dibagi kebanyak user sekaligus dan pemilik dapat membatalkanya.`
 
 <h1><b>##Setup</b></h1>
 
+Required 
+
+`PHP v8.2` ++
+
+`composer 2.8.2` ++
+
+NodeJS v24.4.1 ++
+
+`npx & npm v11.4.2` ++
+
 copy project `git clone https://github.com/willieson/note-taking-app-Laravel.git`
 
 masuk direktori `cd note-taking-app-Laravel`
