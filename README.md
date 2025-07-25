@@ -2,7 +2,7 @@
 
 <b>Database Struktur</b>
 
-<img src="https://github.com/willieson/note-taking-app-Laravel/blob/main/ERD_Database.png" width = "400"/>
+<img src="https://github.com/willieson/note-taking-app-Laravel/blob/main/ERD_Database_pgs.png" width = "400"/>
 
 <li>users : Default dari Laravel Breeze. Menyimpan data akun pengguna.</li>
 <li>notes : Menyimpan catatan milik user. Memiliki kolom is_public untuk publikasi.</li>
