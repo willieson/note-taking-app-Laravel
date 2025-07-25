@@ -37,3 +37,32 @@ Catatan dapat dibagi kebanyak user sekaligus dan pemilik dapat membatalkanya.`
 <li><b>Tailwind CSS:</b> Untuk Styling Ui</li>
 <li><b>Select2:</b> Styling form selection agar lebih baik</li>
 <li><b>Jquery:</b> untuk menjalankan Select2</li>
+
+
+<h1><b>##Setup</b></h1>
+
+copy project `git clone https://github.com/willieson/note-taking-app-Laravel.git`
+
+masuk direktori `cd note-taking-app-Laravel`
+
+install dependencies 
+
+`composer install`
+
+`npm install`
+
+siapkan database
+
+setup .env `touch .env`
+
+setting database di env contoh silahkan lihat di `env.example` ini menggunakan settingan postgresql
+
+generate breeze key `php artisan key:generate`
+
+migrasi database `php artisan migrate`
+
+Running dev 
+
+`npm run dev`
+
+`php artisan serve`
